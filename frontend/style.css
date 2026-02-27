@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.moods button {
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.moods button:hover {
+  transform: scale(1.2);
+}
+
+.moods button.selected {
+  background-color: #2193b0;
+  color: white;
+}
+
+.submit-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #2193b0;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #1a7c95;
+  transform: scale(1.05);
+}
+
+#response {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#history {
+  margin-top: 15px;
+  font-size: 14px;
+  color: gray;
+}

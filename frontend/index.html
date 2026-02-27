@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daily Mood Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Daily Mood Tracker 😊</h1>
+
+    <div class="moods">
+      <button onclick="selectMood('happy')">😊</button>
+      <button onclick="selectMood('sad')">😢</button>
+      <button onclick="selectMood('angry')">😡</button>
+      <button onclick="selectMood('anxious')">😰</button>
+    </div>
+
+    <button class="submit-btn" onclick="saveMood()">Submit</button>
+
+    <div id="response"></div>
+    <div id="music"></div>
+    <div id="history"></div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
